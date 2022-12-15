@@ -1,0 +1,50 @@
+.back{
+    background-image: url('./login.jpg');
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 0;
+    padding-right: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.form-sub{
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+b{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: rgb(46, 46, 46);
+    margin-left: auto;
+    margin-right: auto;
+}
+.bnt-log{
+    height: 50px;
+    width: 200px;
+    background: -webkit-linear-gradient(left,#4689b9,#4d5aec,#8785ff);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #008CBA;
+}
+.message {
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+}

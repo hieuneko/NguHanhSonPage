@@ -1,0 +1,30 @@
+.topbarContainer {
+    top: 0;
+    overflow: hidden;
+    background-color: rgb(115, 197, 170);
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    display: flex;
+}
+.but{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.left{
+    margin-left: 55%;
+}
+.but > a{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.but > a:hover{
+    color: black;
+}
+.new_post>a> button{
+    cursor: pointer;
+}
+.new_post>a>button:hover{
+    background-color: rgb(180, 195, 197);
+}

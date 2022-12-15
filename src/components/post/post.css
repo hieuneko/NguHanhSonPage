@@ -1,0 +1,41 @@
+.post {
+    height: 260px;
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.post-img {
+    height: 200px;
+    width: 300px;
+}
+
+.title {
+    width: auto;
+    height: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.post>.title>a {
+    text-decoration: none;
+    margin: 10px 40px 0 10px;
+    color: #2c2c31;
+    font-size: 1.0rem;
+    --max-lines: 1;
+    display: -webkit-box;
+    overflow: hidden;
+    --webkit-box-orient: vertical;
+    --webkit-line-clamp: var(var(--max-lines));
+}
+.cutoff-text{
+    --max-lines: 3;
+    display: -webkit-box;
+    overflow: hidden;
+    --webkit-box-orient: vertical;
+    --webkit-line-clamp: var(--max-lines);
+}
